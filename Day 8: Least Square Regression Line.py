@@ -20,6 +20,6 @@ b = (n * sigma_x_times_y - sigma_x * sigma_y) / (n * sigma_square_x - sigma_x **
 a = mean_y - b * mean_x
 
 x_question = 80
-y = a + b * 80
+y = a + b * x_question
 
 print(round(y, 3)) 
